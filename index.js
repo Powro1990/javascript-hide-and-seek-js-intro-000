@@ -10,3 +10,7 @@ function deepestChild(){
   var doku = document.getElementById('grand-node').querySelectorAll('div');
   return doku[doku.length-1];
 }
+
+function increaseRankBy(n){
+  
+}
