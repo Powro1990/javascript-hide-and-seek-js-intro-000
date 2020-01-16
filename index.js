@@ -8,6 +8,7 @@ function nestedTarget(){
 
 function deepestChild(){
   var doku = {};
-  doku = document.getElementById('grand-node')[0].innerHTML;
+  doku = document.getElementById('grand-node').querySelector('div');
+  console.log(doku.length)
   return doku;
 }
