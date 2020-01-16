@@ -17,3 +17,10 @@ var calc = parseInt(list[0].innerHTML + n)
   return calc
 }
 
+function increaseRankBy(n) {
+  var elements = document.querySelectorAll('ul.ranked-list li');
+
+  for (var i = 0; i < elements.length; i++) {
+    elements[i].innerHTML = parseInt(elements[i].innerHTML) + parseInt(n);
+  }
+}
