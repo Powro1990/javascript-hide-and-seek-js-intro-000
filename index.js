@@ -11,7 +11,7 @@ function deepestChild(){
   return doku[doku.length-1];
 }
 
-function increaseRankBys(n){
+function increaseRankBy(n){
   var list = document.getElementById('app').querySelectorAll('ul.ranked-list li');
  for(var i = 0; i < list.length; i++){
    list[i].innerHTML = parseInt(list[i].innerHTML) + parseInt(n);
@@ -19,7 +19,7 @@ function increaseRankBys(n){
   
 }
 
-function increaseRankBy(n) {
+function increaseRankBys(n) {
   var elements = document.querySelectorAll('ul.ranked-list li');
 
   for (var i = 0; i < elements.length; i++) {
