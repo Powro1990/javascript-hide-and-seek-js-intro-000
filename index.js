@@ -12,7 +12,7 @@ function deepestChild(){
   for (var i = 0; i < doku.length-1; i++){
     test = doku[i].querySelector("div")
   }
-  return
+  return test
 }
 
 function increaseRankBy(n){
